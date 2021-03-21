@@ -40,3 +40,8 @@ jobs:
           java testbackAround
           javac automobile.java
           java automobile
+
+      - name: dockerbuild
+        run: |
+          jar cfm automobile.jar manifest.txt automobile.class
+          java -jar automobile.jar
