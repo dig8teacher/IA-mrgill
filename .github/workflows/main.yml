@@ -46,4 +46,4 @@ jobs:
           jar cfm automobile.jar manifest.txt automobile.class
           java -jar automobile.jar
           docker build -t au .
-          docker run -it --rm au
+          docker run au
