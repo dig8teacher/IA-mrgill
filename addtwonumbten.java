@@ -4,7 +4,7 @@ public class addtwonumbten {
 
        public static void main(String[] args) {
 
-       int num1, num2, sum;
+       int num1 = 5, num2 = 5, sum;
        System.out.println("please enter two numbers that total to 10");
        Scanner sc = new Scanner(System.in);
        System.out.println("enter 1st num");
@@ -13,8 +13,8 @@ public class addtwonumbten {
        System.out.println("enter 2nd num");
        num2 = sc.nextInt();
        
-       int num1 = 5;
-       int num2 = 5;
+       
+       
 
        sum = num1 + num2;
 
