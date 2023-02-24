@@ -39,7 +39,7 @@ jobs:
           javac testbackAround.java
           java testbackAround
           javac addtwonumbten.java
-          java addtwonumbten.java
+          java addtwonumbten
           javac automobile.java
           java automobile
 
