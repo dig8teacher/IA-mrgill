@@ -12,6 +12,9 @@ public class addtwonumbten {
 
        System.out.println("enter 2nd num");
        num2 = sc.nextInt();
+       
+       int num1 = 5;
+       int num2 = 5;
 
        sum = num1 + num2;
 
