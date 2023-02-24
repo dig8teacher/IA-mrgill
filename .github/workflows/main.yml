@@ -38,6 +38,8 @@ jobs:
           java variabletwo
           javac testbackAround.java
           java testbackAround
+          javac addtwonumbten.java
+          java addtwonumbten.java
           javac automobile.java
           java automobile
 
