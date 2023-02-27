@@ -6,6 +6,9 @@ class variableone {
 		int number3 = 22;
 		int number4 = 22;
 		int number5 = 22;
+		int number6 = 22;
+		int number7 = 22;
+		int number8 = 22;
 		System.out.println(number1+number2+number3+number4+number5);
 	}
 }
