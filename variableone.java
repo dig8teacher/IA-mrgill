@@ -11,6 +11,7 @@ class variableone {
 		int number8 = 22;
 		int number9 = 22;
 		int number10 = 22;
-		System.out.println(number1+number2+number3+number4+number5+number6+number7+number8+number9+number10);
+		int number11 = 22;
+		System.out.println(number1+number2+number3+number4+number5+number6+number7+number8+number9+number10+number11);
 	}
 }
