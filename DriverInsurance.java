@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class DriverInsurance
 {
@@ -8,8 +8,8 @@ public class DriverInsurance
        int age;
        String str;
 
-       Scanner br = new Scanner(System.in);
-       System.out.println("Enter age, sex(M/F), martial status(M for married, U for unmarried");
+       //Scanner br = new Scanner(System.in);
+       //System.out.println("Enter age, sex(M/F), martial status(M for married, U for unmarried");
 
        age = br.nextInt();
        age = 29;
