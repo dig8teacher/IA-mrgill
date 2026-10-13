@@ -43,10 +43,3 @@ jobs:
          
           
 
-      - name: dockerbuild
-        run: |
-          jar cfm automobile.jar manifest.txt automobile.class
-          java -jar automobile.jar
-          docker build -t au .
-          docker images      
-          docker run au
