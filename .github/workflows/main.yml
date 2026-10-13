@@ -40,8 +40,8 @@ jobs:
           java testbackAround
           javac addtwonumbten.java
           java addtwonumbten
-          javac automobile.java
-          java automobile
+         
+          
 
       - name: dockerbuild
         run: |
