@@ -4,7 +4,7 @@ public class addtwonumbten {
 
        public static void main(String[] args) {
 
-       int num1 = 5, num2 = 5, sum;
+       int num1 = 6, num2 = 5, sum;
        
        
        
