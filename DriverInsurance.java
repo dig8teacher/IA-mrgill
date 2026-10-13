@@ -12,7 +12,7 @@ public class DriverInsurance
        //System.out.println("Enter age, sex(M/F), martial status(M for married, U for unmarried");
 
       // age = br.nextInt();
-       age = 29;
+       age = 31;
       // str = br.nextLine();
       // sex = br.next().charAt(0);
        sex = 'M';
