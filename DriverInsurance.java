@@ -15,10 +15,10 @@ public class DriverInsurance
        age = 29;
        str = br.nextLine();
        sex = br.next().charAt(0);
-       sex = M;
+       sex = 'M';
        str = br.nextLine();
        ms = br.next().charAt(0);
-       ms = U;
+       ms = 'U';
 
        if(( ms=='M') || ( ms=='U' && sex=='M' && age>30)
                || ( ms=='U' && sex=='F' && age>25))
