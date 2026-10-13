@@ -11,13 +11,13 @@ public class DriverInsurance
        //Scanner br = new Scanner(System.in);
        //System.out.println("Enter age, sex(M/F), martial status(M for married, U for unmarried");
 
-       age = br.nextInt();
+      // age = br.nextInt();
        age = 29;
-       str = br.nextLine();
-       sex = br.next().charAt(0);
+      // str = br.nextLine();
+      // sex = br.next().charAt(0);
        sex = 'M';
-       str = br.nextLine();
-       ms = br.next().charAt(0);
+       //str = br.nextLine();
+       //ms = br.next().charAt(0);
        ms = 'U';
 
        if(( ms=='M') || ( ms=='U' && sex=='M' && age>30)
